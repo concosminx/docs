@@ -1,13 +1,3 @@
-
-
-
-
-
-
-
-
-
-
 **Articole**
 
   * `Troubleshooting Guide - Oracle Docs <https://docs.oracle.com/javase/10/troubleshoot/JSTGD.pdf>`__
@@ -20,3 +10,14 @@
   
   * `The jstack Utility <https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr016.html>`__
 
+Comenzi
+=======
+
+Heap dump; 
+::code::`path/to/jdk/jmap -dump:format=b,file=<filename> id_proces` 
+
+Sumar heap
+::code::`path/to/jdk/jmap -heap id_proces` 
+
+Histograma
+::code::`path/to/jdk/jmap -histo id_proces` 
