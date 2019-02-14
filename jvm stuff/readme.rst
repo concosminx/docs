@@ -24,16 +24,28 @@ Sumar heap
 
 .. code:: 
 
- path/to/jdk/jmap -heap id_proces
+ path/to/jdk/jmap -heap id_proces >> path/to/save_file/heap_summary_ddmmyy_hhmm.log
 
 Histograma
 
 .. code:: 
 
-  path/to/jdk/jmap -histo id_proces
+  path/to/jdk/jmap -histo id_proces >> path/to/save_file/heap_histo_ddmmyy_hhmm.log
 
 Thread dump 
 
 .. code:: 
   
-  path/to/jdk/jstack -F id_proces
+  path/to/jdk/jstack -F id_proces >> path/to/save_file/thread_dump_ddmmyy_hhmm.log
+  
+Uptime in secunde  
+
+.. code:: 
+  
+  path/to/jdk/jcmd VM.uptime id_proces 
+  
+VM Flags
+
+.. code:: 
+  
+  path/to/jdk/jcmd VM.flags id_proces   
