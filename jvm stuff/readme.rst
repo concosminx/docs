@@ -16,15 +16,21 @@ Comenzi
 
 Heap dump
 
- `path/to/jdk/jmap -dump:format=b,file=<filename> id_proces`
+.. code:: 
+ 
+ path/to/jdk/jmap -dump:format=b,file=<filename> id_proces
 
 Sumar heap
 
- `path/to/jdk/jmap -heap id_proces` 
+.. code:: 
+
+ path/to/jdk/jmap -heap id_proces
 
 Histograma
 
-  `path/to/jdk/jmap -histo id_proces`
+.. code:: 
+
+  path/to/jdk/jmap -histo id_proces
 
 Thread dump 
 
