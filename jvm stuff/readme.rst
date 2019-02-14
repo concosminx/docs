@@ -17,3 +17,6 @@
   * `Java Virtual Machine Statistics Monitoring Tool <https://docs.oracle.com/javase/7/docs/technotes/tools/share/jstat.html>`__
   
   * `The jmap Utility <https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr014.html>`__
+  
+  * `The jstack Utility <https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr016.html>`__
+
