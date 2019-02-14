@@ -10,6 +10,9 @@ Articole
   * `The jmap Utility <https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr014.html>`__
   
   * `The jstack Utility <https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr016.html>`__
+  
+  * `The jinfo Utility <https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr013.html>`__
+  
 
 Comenzi
 =======
