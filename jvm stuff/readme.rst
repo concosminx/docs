@@ -14,7 +14,8 @@ Comenzi
 =======
 
 Heap dump; 
-::code::`path/to/jdk/jmap -dump:format=b,file=<filename> id_proces` 
+::code::
+ `path/to/jdk/jmap -dump:format=b,file=<filename> id_proces` 
 
 Sumar heap
 ::code::`path/to/jdk/jmap -heap id_proces` 
