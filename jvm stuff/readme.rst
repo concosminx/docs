@@ -1,4 +1,5 @@
-**Articole**
+Articole
+========
 
   * `Troubleshooting Guide - Oracle Docs <https://docs.oracle.com/javase/10/troubleshoot/JSTGD.pdf>`__
 
@@ -24,3 +25,9 @@ Sumar heap
 Histograma
 
   `path/to/jdk/jmap -histo id_proces`
+
+Thread dump 
+
+.. code:: 
+  
+  path/to/jdk/jstack -F id_proces
