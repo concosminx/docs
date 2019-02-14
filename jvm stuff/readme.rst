@@ -49,3 +49,9 @@ VM Flags
 .. code:: 
   
   path/to/jdk/jcmd VM.flags id_proces   
+
+GC
+
+.. code:: 
+  
+  path/to/jdk/jcmd GC.run id_proces   
