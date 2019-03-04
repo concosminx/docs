@@ -3,4 +3,4 @@ docs
 
 utile + exersare documentatie cu **reStructuredText**
 
-see: https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html
+vezi: https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html
