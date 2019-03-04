@@ -14,3 +14,7 @@ https://github.com/nextcloud/documentation
 https://github.com/mila-iqia/blocks/blob/master/docs/index.rst
 
 https://readthedocs.org/
+
+si fisiere sphinx binare:
+
+https://github.com/trustin/sphinx-binary
