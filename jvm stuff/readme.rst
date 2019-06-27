@@ -58,3 +58,11 @@ GC
 .. code:: 
   
   path/to/jdk/jcmd GC.run id_proces   
+
+JVM Uptime (linux)
+
+.. code:: 
+  
+  ps -p <pid> -o stime,etime    
+
+  
