@@ -1,17 +1,3 @@
-=============
-HTTP Protocol
-=============
-
-Read from http://www.tutorialspoint.com/http/
-
-#. Anatomy of a HTTPRequest
-#. HTTP Request Methods Difference between Pop AND Get
-#. HTTP Header Fields -definition and what are the most important
-#. HttpStatusCodes Definition. What do 200, 404,403,500 status codes
-   represent
-#. Mime types (for html , css, javascript)
-
-
 Check version
 =============
 
