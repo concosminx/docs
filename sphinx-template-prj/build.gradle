@@ -1,0 +1,31 @@
+buildscript {
+  repositories{
+    mavenLocal();    
+    maven { url 'https://repo.maven.apache.org/maven2/' }
+    maven { url 'http://jcenter.bintray.com/'}
+  }
+}
+
+plugins {
+  id "kr.motd.sphinx" version "2.6.0"
+}
+
+apply plugin: 'java'
+
+repositories {
+  maven { url 'https://repo.maven.apache.org/maven2/' }
+}
+
+task showDoc(dependsOn:['site']) {
+  doFirst {
+    java.net.URI url=(new File(new File(project.buildDir,"sphinx-site"),"index.html")).toURI();
+    java.awt.Desktop.getDesktop().browse(url);    
+  }
+}
+import org.apache.tools.ant.taskdefs.condition.Os
+
+sphinx {
+  binaryUrl=new File(project.projectDir,"bin/sphinx.windows-x86_64.exe").toURI().toURL().toString()
+  sourceDirectory = new File(project.projectDir,"sphinx").absolutePath
+  outputDirectory = "${project.buildDir}/sphinx-site"
+}
