@@ -1,7 +1,7 @@
 docs
 ====
 
-utile + exersare documentatie cu **reStructuredText**
+docs and examples with **reStructuredText**
 
 vezi:
 
@@ -15,6 +15,6 @@ https://github.com/mila-iqia/blocks/blob/master/docs/index.rst
 
 https://readthedocs.org/
 
-si fisiere sphinx binare:
+... and sphinx binaries:
 
 https://github.com/trustin/sphinx-binary
