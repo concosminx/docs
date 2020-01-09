@@ -3,7 +3,7 @@ docs
 
 docs and examples with **reStructuredText**
 
-vezi:
+see:
 
 https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html
 
