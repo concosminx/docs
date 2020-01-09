@@ -23,6 +23,7 @@ Heap histogram
   path/to/jdk/jmap -histo id_proces >> path/to/save_file/heap_histo_ddmmyy_hhmm.log
 
 Thread dump 
+-----------
 
 .. code:: 
   
