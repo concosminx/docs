@@ -16,6 +16,7 @@ Heap summary
  path/to/jdk/jmap -heap id_proces >> path/to/save_file/heap_summary_ddmmyy_hhmm.log
 
 Heap histogram
+--------------
 
 .. code:: 
 
@@ -28,24 +29,28 @@ Thread dump
   path/to/jdk/jstack -F id_proces >> path/to/save_file/thread_dump_ddmmyy_hhmm.log
   
 Uptime (in seconds)
+-------------------
 
 .. code:: 
   
   path/to/jdk/jcmd VM.uptime id_proces 
   
 VM Flags
+--------
 
 .. code:: 
   
   path/to/jdk/jcmd VM.flags id_proces   
 
 GC
+--
 
 .. code:: 
   
   path/to/jdk/jcmd GC.run id_proces   
 
 JVM Uptime (linux)
+------------------
 
 .. code:: 
   
