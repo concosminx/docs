@@ -2,12 +2,14 @@ Commands
 ========
 
 Heap dump
+---------
 
 .. code:: 
  
  path/to/jdk/jmap -dump:format=b,file=<filename> id_proces
 
 Heap summary
+------------
 
 .. code:: 
 
