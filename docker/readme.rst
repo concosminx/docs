@@ -208,13 +208,16 @@ Powershell (windows)
 ====================
 
 Remove all containers: ``docker ps -a -q | % { docker rm $_ }``
+
 Remove all images: ``docker images -q | % { docker rmi $_ }``
 
 From bash (linux)
 =================
 
 Remove all containers: ``docker rm $(docker ps -a -q)``
+
 Remove all images: ``docker rmi $(docker images -q)``
+
 Remove all volumes:  ``docker volume rm $(docker volume ls -f dangling=true -q)``
 
 
