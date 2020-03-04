@@ -34,21 +34,21 @@ Uptime (in seconds)
 
 .. code:: 
   
-  path/to/jdk/jcmd VM.uptime id_proces 
+  path/to/jdk/jcmd id_proces VM.uptime  
   
 VM Flags
 --------
 
 .. code:: 
   
-  path/to/jdk/jcmd VM.flags id_proces   
+  path/to/jdk/jcmd id_proces VM.flags    
 
 GC
 --
 
 .. code:: 
   
-  path/to/jdk/jcmd GC.run id_proces   
+  path/to/jdk/jcmd id_proces GC.run   
 
 JVM Uptime (linux)
 ------------------
