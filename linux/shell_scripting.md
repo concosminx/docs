@@ -125,3 +125,39 @@ $@ : 1 - 3
 ```
 ### user input 
 * `read -p "PROMPT" VARIABLE`
+
+
+# Other commands
+
+- check if a command is builtin `command -V df`
+- show builtin disable `enable -n`
+- disable and enable builtin echo `enable -n echo` / `enable echo`
+- display builtin commands `help`
+
+# Bash expansions and substitutions
+
+
+| Representation | Name |
+| ---------| ----------- |
+| ~        | Tilde expansion       |
+| {...}    | Brace expansion       |
+| ${...}   | Parameter expansion   |
+| $(...)   | Command expansion     |
+| $((...)) | Arithmetic expansion  |
+
+
+# Examples
+
+
+- `echo {1..10}` or `echo {01..10}`
+- `echo {10..1}`
+- `echo {a..z}`
+- `touch file_{01..05}{a..c}.txt`
+- replace `there` with `everybody` in parameter: `echo ${greeting/there/everybody}`
+- replace all of the `e` with `_`: `echo ${greeting//e/_}`
+- `echo "Kernel is $(uname -r)."`
+
+Help for test `help test`
+
+# Tests
+- `[ 4 -lt 5 ]; echo $?`

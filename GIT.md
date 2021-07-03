@@ -1,0 +1,7 @@
+- `git add ab*` (add files starting with *ab**)
+- `git mv file1.txt file1newname.txt` (rename a file)
+- `git rm afiletodelete.txt` (delete a file)
+- `git branch` (see existing branches)
+- `git branch branch_name` (create a new branch)
+- `git checkout branch_name` (switces to branch_name)
+- `git merge branch_name`
